@@ -1,0 +1,34 @@
+.WeatherApp{
+    text-align: center;
+}
+
+/* WeatherApp.css */
+
+.WeatherApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  min-height: 100vh;
+}
+
+.WeatherApp h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .WeatherApp {
+    padding: 1rem;
+  }
+
+  .WeatherApp h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+}

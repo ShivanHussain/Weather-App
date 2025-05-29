@@ -1,0 +1,45 @@
+/* Infobox.css */
+
+.infobox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cardcontainer {
+  width: 100%;
+  max-width: 420px; /* Increased card width */
+  margin: auto;
+}
+
+/* Text styling */
+.MuiCardContent-root p {
+  font-weight: 500; /* Semibold */
+  color: #333;
+}
+
+.MuiTypography-h5 {
+  font-weight: 600; /* Bolder city title */
+  color: #222;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .cardcontainer {
+    max-width: 95%;
+  }
+
+  .infobox {
+    padding: 0.5rem;
+  }
+
+  .MuiCardContent-root p {
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+  }
+
+  .MuiTypography-h5 {
+    font-size: 1.2rem;
+  }
+}
